@@ -1,5 +1,6 @@
 /* GENERAL STYLING */
 *{
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -50,4 +51,12 @@ body{
 
 #calc__panel input:focus{
     outline: none;
+}
+
+/* STYLING BUTTONS LAYOUT */
+#buttons-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0;
 }
