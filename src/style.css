@@ -93,3 +93,20 @@ body{
     background: #2010DA;
     border-bottom-right-radius: 13px;
 }
+
+/* HOVER BUTTON STYLES */
+.button--basic-op.button--gray:hover,
+.button--number:hover{
+    background: #b4b1b1e0;
+    cursor: pointer;
+}
+
+.button--basic-op.button--blue:hover,
+.button--basic-op.button--dark-blue:hover{
+    background: #3c64f5e6;
+    cursor: pointer;
+}
+
+.button--basic-op.button--dark-blue:hover{
+    background: #2110daaa;
+}
