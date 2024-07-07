@@ -19,7 +19,7 @@
         </section>
 
         <section id="buttons-container">
-            <button class="button--basic-op button--gray">AC</button>
+            <button class="button--basic-op button--gray" onclick="clear()">AC</button>
             <button class="button--basic-op button--gray">+/-</button>
             <button class="button--basic-op button--gray">%</button>
             <button class="button--basic-op button--blue">÷</button>
@@ -34,7 +34,7 @@
             <button class="button--number">6</button>
             <button class="button--basic-op button--blue">-</button>
 
-            <button class="button--number">1</button>
+            <button class="button--number" onclick="displayOne()" >1</button>
             <button class="button--number">2</button>
             <button class="button--number">3</button>
             <button class="button--basic-op button--blue">+</button>
@@ -44,5 +44,7 @@
             <button class="button--basic-op button--dark-blue">=</button>
         </section>
     </main>
+
+    <script src="./src/app.js"></script>
 </body>
 </html>
